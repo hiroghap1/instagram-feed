@@ -1,0 +1,8 @@
+$max-width: 1080px;
+$base-padding: 15px;
+
+.container {
+  max-width: $max-width + $base-padding * 2;
+  padding-left: $base-padding;
+  padding-right: $base-padding;
+}
